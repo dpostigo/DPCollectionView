@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DPCollectionView"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "DPCollectionView"
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   # s.dependency     'NSColor-Crayola'
   # s.dependency     'NSView-NewConstraints'
-  # s.dependency     'DPKit-Utils'
+  s.dependency     'DPKit-Utils'
   # s.dependency     'DPKit-Styles'
   s.frameworks   = 'Foundation', 'QuartzCore', 'UIKit'
   s.requires_arc = true
